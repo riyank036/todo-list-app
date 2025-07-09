@@ -1,55 +1,55 @@
-# Todo List App
+# Todo App with Context API & Local Storage
 
-A simple Todo List App built with React and Local Storage.
+A simple todo application built with React that uses Context API for state management and Local Storage for data persistence.
 
 ## Features
 
-* Add, edit, and delete todo items
-* Store todo items in Local Storage
-* Retrieve todo items from Local Storage on page load
-* Display todo items in a list
+- Add new todos
+- Edit existing todos
+- Mark todos as complete/incomplete
+- Delete todos
+- Data persistence using Local Storage
+- Responsive design
+- Clean and modern UI
 
-## Getting Started
+## Technologies Used
 
-1. Clone this repository to your local machine: `git clone https://github.com/riyank036/todo-list-app.git`
-2. Run `npm install` to install dependencies
-3. Run `npm run dev` to start the development server
-4. Open `http://localhost:3000` in your browser to view the app
+- React
+- Context API
+- Local Storage
+- Tailwind CSS
+- Vite
 
-## Components
+## Installation
 
-* **TodoList**: The main component that renders the todo list
-* **TodoItem**: A component that represents a single todo item
-* **AddTodo**: A component that allows users to add new todo items
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open http://localhost:5173 in your browser
 
-## API
+## Usage
 
-* **localStorage**: Used to store and retrieve todo items
+- **Add Todo**: Type in the input field and click "Add"
+- **Edit Todo**: Click the edit button (✏️) to modify a todo
+- **Complete Todo**: Check the checkbox to mark as complete
+- **Delete Todo**: Click the delete button (❌) to remove a todo
+- **Save Changes**: Click the save button (📁) after editing
 
-## Libraries
+## Features
 
-* **React**: Used to build the user interface
-* **Local Storage**: Used to store and retrieve todo items
+- **Context API**: Centralized state management
+- **Local Storage**: Todos persist between browser sessions
+- **Responsive**: Works on desktop and mobile devices
+- **Real-time Updates**: Changes reflect immediately
 
-## License
+## Build
 
-This project is licensed under the MIT License.
-
-## Contributing
-
-Contributions are welcome! Please submit a pull request with your changes.
-
-## Acknowledgments
-
-* This project was built using the React documentation and tutorials.
-* The Local Storage API was used to store and retrieve todo items.
-
-## Live Project
-
-[View the live project](https://todo-list-app-036.netlify.app/)
-
-## Git Repository
-
-[View the Git repository](https://github.com/riyank036/todo-list-app)
-
-Note: Replace `riyank036` with your actual GitHub username.
+```bash
+npm run build
+```
